@@ -1,0 +1,40 @@
+.transactions {
+    margin-top: 10px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 0.5rem;
+}
+.headTable{
+    background-color: rgb(20, 208, 214);
+}
+.nameRow {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: white;
+    font-size: 20px;
+}
+.nameRow:first-child {
+    border-top-left-radius: 0.5rem;
+}
+.nameRow:last-child {
+    border-top-right-radius: 0.5rem;
+}
+.valueTable {
+    width: 33%;
+    color: #8a8b8e;
+    font-size: 20px;
+    text-align: center;
+}
+.valueTable:nth-child(even) {
+    background-color: #f2f2f2;
+}
+.valueTable:last-child {
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+.value {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
